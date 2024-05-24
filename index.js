@@ -31,7 +31,7 @@ app.post("/",(req,resp)=>{
                     pprice:req.body.pprice,
                     pcat:req.body.pcat,
                     pdesc:req.body.pdesc,
-                    pimg:"https://multer-backend.onrender.comuploads/"+req.file.filename,
+                    pimg:"https://multer-backend.onrender.com/uploads/"+req.file.filename,
 
                 })
                 const entry=newData.save()
